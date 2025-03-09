@@ -1,0 +1,41 @@
+# Binaries
+pokedexcli
+
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go vendor directory (if not using modules)
+vendor/
+
+# Dependency directories
+bin/
+build/
+dist/
+
+# Go test cache
+*.test
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Go module cache
+/go/pkg/
+
+# log file
+repl.log
